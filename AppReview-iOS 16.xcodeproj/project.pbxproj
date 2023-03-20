@@ -13,6 +13,7 @@
 		BB4EF3DB28F7C207008FD4F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB4EF3DA28F7C207008FD4F2 /* Assets.xcassets */; };
 		BB4EF3DE28F7C207008FD4F2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB4EF3DD28F7C207008FD4F2 /* Preview Assets.xcassets */; };
 		BB4EF3E728F7D1BE008FD4F2 /* AppInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB4EF3E628F7D1BE008FD4F2 /* AppInfoView.swift */; };
+		E4A7B8F229C8200000E1F24C /* AppReviewRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4A7B8F129C8200000E1F24C /* AppReviewRequest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		BB4EF3DA28F7C207008FD4F2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BB4EF3DD28F7C207008FD4F2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BB4EF3E628F7D1BE008FD4F2 /* AppInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppInfoView.swift; sourceTree = "<group>"; };
+		E4A7B8F129C8200000E1F24C /* AppReviewRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppReviewRequest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 				BB4EF3D628F7C207008FD4F2 /* AppEntry.swift */,
 				BB4EF3D828F7C207008FD4F2 /* MainView.swift */,
 				BB4EF3E628F7D1BE008FD4F2 /* AppInfoView.swift */,
+				E4A7B8F129C8200000E1F24C /* AppReviewRequest.swift */,
 				BB4EF3DA28F7C207008FD4F2 /* Assets.xcassets */,
 				BB15A51328F8747A001CDD5B /* Launch Screen.storyboard */,
 				BB4EF3DC28F7C207008FD4F2 /* Preview Content */,
@@ -145,6 +148,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BB4EF3E728F7D1BE008FD4F2 /* AppInfoView.swift in Sources */,
+				E4A7B8F229C8200000E1F24C /* AppReviewRequest.swift in Sources */,
 				BB4EF3D928F7C207008FD4F2 /* MainView.swift in Sources */,
 				BB4EF3D728F7C207008FD4F2 /* AppEntry.swift in Sources */,
 			);
@@ -275,7 +279,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"AppReview-iOS 16/Preview Content\"";
-				DEVELOPMENT_TEAM = RKV4UP49S6;
+				DEVELOPMENT_TEAM = 4P4GQMB6S7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -288,8 +292,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.createchsol.AppReview-iOS-16";
+				MARKETING_VERSION = 1.2;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mj.AppReview-iOS-16";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -305,7 +309,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"AppReview-iOS 16/Preview Content\"";
-				DEVELOPMENT_TEAM = RKV4UP49S6;
+				DEVELOPMENT_TEAM = 4P4GQMB6S7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -318,8 +322,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.createchsol.AppReview-iOS-16";
+				MARKETING_VERSION = 1.2;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mj.AppReview-iOS-16";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;

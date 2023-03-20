@@ -24,6 +24,13 @@ struct AppInfoView: View {
     """)
                     .multilineTextAlignment(.center)
                 }
+                if AppReviewRequest.showReviewButton,
+                   let url = AppReviewRequest.appURL(id: "1407910298") {
+                    Link(destination: url) {
+                        Text("Write Review")
+                    }
+                    .buttonStyle(.borderedProminent)
+                }
                 Spacer()
             }
             .toolbar {

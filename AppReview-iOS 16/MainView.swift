@@ -6,10 +6,15 @@
 // Follow me on Twitter: @StewartLynch
 // Subscribe on YouTube: https://youTube.com/StewartLynch
 //
+
+// Film: https://www.youtube.com/watch?v=fLR7E2579Dg&ab_channel=StewartLynch
+
 import SwiftUI
+import StoreKit
 
 struct MainView: View {
     @State private var getInfo = false
+    @Environment(\.requestReview) var requestReview
     var body: some View {
         NavigationStack {
                Image("launchScreen")
@@ -28,7 +33,17 @@ struct MainView: View {
                     }
                 }
             }
-            .sheet(isPresented: $getInfo) {
+            .sheet(isPresented: $getInfo, onDismiss: {
+                if AppReviewRequest.requestReview {
+                    Task {
+                        try await Task.sleep(
+                            until: .now + .seconds(1),
+                            tolerance: .seconds(0.5),
+                            clock: .suspending)
+                        requestReview()
+                    }
+                }
+            }) {
                 AppInfoView()
                     .presentationDetents([.fraction(0.4)])
             }
